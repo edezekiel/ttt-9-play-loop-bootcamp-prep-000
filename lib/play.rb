@@ -40,11 +40,12 @@ end
 def play(board)
 
 i = 0
-loop do 
-turn(board)
-i += 1
-while i < 9
-end
-  
-end
+  loop do
+  turn(board)
+  i += 1
+    if i = 9
+      break
+    end
+  end
 
+end
